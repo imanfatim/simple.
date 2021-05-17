@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0;
+        }
+        body{
+
+        background-color: rgb(245, 245, 245);
+        background-position: center;
+        background-size: cover;
+        margin-top: 60px;
+        }
+        .main{
+            margin: auto;
+            width: 600px;
+        }
+        .form{
+            padding: 40px;
+        }
+        .name{
+          color: black;
+          font-size: 25px;
+          padding-left: 50;
+          margin-left: 25;
+          margin-top: 30;
+
+        }
+        .email{
+            position: relative;
+            left: 100px;
+            top: -25px;
+            border-radius: 7px;
+            padding: 0 24px;
+            font-size: 18px;
+        }
+        .full_name{
+            position: relative;
+            left: 100px;
+            top: -25px;
+            border-radius: 7px;
+            padding: 0 24px;
+            font-size: 18px;
+        }
+       .country{
+        color: black;
+          font-size: 25px;
+          padding-left: 50;
+          margin-left: 25;
+          margin-top: 30;
+       }
+       .option{
+        position: relative;
+            left: 100px;
+            top: -25px;
+            border-radius: 4px;
+            padding: 0 15px;
+            font-size: 13px;
+       }
+       .city{
+        color: black;
+          font-size: 25px;
+          padding-left: 50;
+          margin-left: 25;
+          margin-top: 30;
+       }
+       .AN{
+        color: black;
+          font-size: 25px;
+          padding-left: 50;
+          margin-left: 25;
+          margin-top: 30;
+       }
+       .radio{
+           display: inline-block;
+        position: relative;
+            left: 100px;
+            top: -25px;
+            border-radius: 7px;
+            padding: 0 24px;
+            font-size: 20px;
+       }
+       .radio input{
+           border-radius: 50%;
+           cursor: pointer;
+           outline: none;
+       }
+      .per{
+        color: black;
+          font-size: 25px;
+          padding-left: 50;
+          margin-left: 25;
+          margin-top: 30;
+      }
+      .web{
+        color: black;
+          font-size: 25px;
+          padding-left: 50;
+          padding-bottom: 40px;
+          margin-left: 25;
+          margin-top: 30;
+      }
+      .add{
+        color: black;
+          font-size: 25px;
+         
+      }
+      .address{
+        position: relative;
+            left: 100px;
+            top: -50px;
+            border-radius: 10px;
+            padding: 0 40px 30px;
+            font-size: 20px;
+      }
+      .SA{
+          display: block;
+          margin: 20 0 0 20;
+          text-align: center;
+          border-radius: 100px;
+          border: 2px solid;
+          padding: 10px 50px;
+          outline: none;
+          cursor: pointer;
+          transition: 0.25px;
+          position: relative;
+            left: 100px;
+            
+          
+      }
+      .RE{
+        display: block;
+          margin: 20 0 0 20;
+          text-align: center;
+          border-radius: 100px;
+          border: 2px solid;
+          padding: 10px 50px;
+          outline: none;
+          cursor: pointer;
+          transition: 0.25px;
+          position: relative;
+            left: 235px;
+            top: -40px;
+      }
+      .ab{
+        position: relative;
+            left: 140px;
+            top: -70px;
+            border-radius: 4px;
+            padding: 0 30px 30px;
+            font-size: 14px;
+
+      }
+    </style>
+<body>
+    <form>
+    <div class="main">
+            <h2 class="name">E-Mail</h2>
+            <input class="email" type="text" name="email">
+            <h2 class="name">Name</h2>
+            <input class="full_name" type="text" name="fullname"><br>
+           <div class="cname">
+                <h2 class="country">Country</h2>
+                <select class="option" name="country">
+                    <option disabled="disabled" selected="selected">...Select option..</option>
+                    <option>Pakistan</option>
+                    <option>UK</option>
+                    <option>Turkey</option>
+                    <option>Australia</option>
+                </select>
+         </div>
+         <div class="citynam">
+                   <h2 class="city">City</h2>
+                  <select class="option" name="city">
+                    <option disabled="disabled" selected="selected">..Select option..</option>
+                    <option>Abbottabad</option>
+                    <option>Islamabad</option>
+                    <option>Lahore</option>
+                    <option>DIKhan</option>
+        
+
+
+                   </select>
+                   </div>
+             
+              <h2 class="AN">Answer</h2>
+              <label class="radio">
+                  <input class="radio-one" type="radio"  name="">
+                  <span class="checkmark"></span>
+                  Red
+
+              </label>
+              <label class="radio">
+                <input class="radio-two" type="radio"  name="">
+                <span class="checkmarkk"></span>
+                Grey
+
+            </label>
+            <label class="radio">
+                <input class="radio-three" type="radio"  name="">
+                <span class="checkmark"></span>
+                Blue
+
+            </label>
+            <h2 class="per">Perference</h2>
+            <label class="radio">
+                <input class="radio-one" type="radio"  name="">
+                <span class="checkmark"></span>
+                Sports
+
+            </label>
+            <label class="radio">
+              <input class="radio-two" type="radio"  name="">
+              <span class="checkmarkk"></span>
+              Politics
+
+          </label>
+          <label class="radio">
+              <input class="radio-three" type="radio"  name="">
+              <span class="checkmark"></span>
+              Business
+
+          </label>
+          <h2 class="web">Websites</h2>
+          <select multiple class="ab">
+             <option >digg</option>
+              <option>facebook</option>
+              <option>google</option>
+              <option>orkut</option>
+              <option>twitter</option>
+              <option>whatsapp</option>
+              <option>instagram</option>
+
+          </select>
+
+          <h2 class="add">Address</h2>
+          <input class="address" type="text" name="fulladdress">
+          <button class="SA">Save</button>
+          <button class="RE">Reset</button>
+          
+         
+      
+
+
+
+
+    </div>
+    </form>
+</body>
+
+
+
+
+
+</html>
